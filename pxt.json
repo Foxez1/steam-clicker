@@ -1,22 +1,29 @@
 {
-    "name": "new",
+    "name": "the box of button",
     "description": "",
     "dependencies": {
         "device": "*",
-        "animation": "*"
+        "animation": "*",
+        "controller": "*",
+        "multiplayer": "*",
+        "color-coded-tilemap": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
         "assets.json",
-        "main.py"
+        "main.py",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.12.29",
+        "target": "1.12.30",
         "targetId": "arcade"
     },
     "supportedTargets": [
